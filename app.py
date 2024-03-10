@@ -95,10 +95,3 @@ st.write(
 
 st.markdown("-----------------------------------------------------------------------------------")
 
-from http.server import HTTPServer, SimpleHTTPRequestHandler
-
-PORT = 8000  # You can change this port number if needed
-
-httpd = HTTPServer(('', PORT), SimpleHTTPRequestHandler)
-print(f"Serving at port {PORT}")
-httpd.serve_forever()
