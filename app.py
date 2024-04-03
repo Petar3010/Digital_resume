@@ -29,6 +29,8 @@ CERTIFICATES = {
     "SoftUni/QA Basic": "https://softuni.bg/certificates/details/176971/cab66d43",
     "Udemy/Software Testing Bootcamp": "https://www.udemy.com/certificate/UC-29ad752f-fa1a-4941-9f23-3d08e776247d/",
     "Udemy/QA Manual Testing": "https://www.udemy.com/certificate/UC-4e00286f-c3ba-423c-9f0a-9ff510f0b1b6/",
+    "SoftUni/Programming basic (Python)": "https://softuni.bg/certificates/details/210029/dfe6664e",
+
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
