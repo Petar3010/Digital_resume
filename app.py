@@ -5,7 +5,7 @@ from PIL import Image
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "Styles" / "main.css"
-resume_file = current_dir / "Assets" / "Petar Anev CV.pdf"
+resume_file = current_dir / "Assets" / "Petar Pavlov Anev CV.pdf"
 profile_pic = current_dir / "Assets" / "CV photo.jpg"
 
 
@@ -14,8 +14,10 @@ PAGE_ICON = ":WAVE:"
 NAME = "Petar Anev"
 TELEPHONE = "+359897939928"
 DESCRIPTION = """
-A Software Test Engineer seeking a challenging and progressive position to gain
-knowledge and experience from it.
+My experience in quality assurance involves testing and validating 
+insurance and financial software systems, ensuring accuracy, 
+functionality, and compliance with industry standards while 
+collaborating with teams to deliver reliable solutions. .
 """
 EMAIL = "petaranevq@gmail.com"
 SOCIAL_MEDIA = {
@@ -77,9 +79,10 @@ st.write("#")
 st.subheader("Previous Experience")
 st.write(
     """
-    QA tester at Utest as a freelancer. 
-    Contributed to crowd-sourced testing projects for globally recognized brands,
-including “Tidal”, “Nike”, and “Moncler”
+- QA Tester | Utest.com (freelance) (07.2023 – 05.2024)  
+- QA intern | Soft intellect (Full time) (05.2024 – 08.2024) 
+- QA specialist | Soft intellect (Full time) (09.2024)  
+- Auto - diagnostic Specialist (09.2011 – 05.2023) 
     """
 )
 st.markdown("----------------------------------------------------------------------------")
@@ -92,7 +95,7 @@ st.write(
      ✓ Knowledge of Agile software methodologies.\n
      ✓ Knowledge of SQL database.\n
      ✓ Knowledge of API Testing (Postman), Performance Testing(JMeter) , Mobile Testing.\n
-     ✓ knowledge of Python.\n
+     ✓ Knowledge of Python.\n
      ✓ Basic knowledge of HTML and CSS.\n
      ✓ Basic knowledge of Git and GitHub.\n
      ✓ Basic knowledge of Operations Systems.\n
