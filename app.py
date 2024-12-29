@@ -25,6 +25,7 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/Petar3010?tab=repositories",
 }
 
+
 CERTIFICATES = {
     "SoftUni/QA Fundamental": "https://softuni.bg/certificates/details/200643/af74fe7d",
     "SoftUni/Software Technologies": "https://softuni.bg/certificates/details/191687/e8effe5f",
@@ -32,8 +33,9 @@ CERTIFICATES = {
     "Udemy/Software Testing Bootcamp": "https://www.udemy.com/certificate/UC-29ad752f-fa1a-4941-9f23-3d08e776247d/",
     "Udemy/QA Manual Testing": "https://www.udemy.com/certificate/UC-4e00286f-c3ba-423c-9f0a-9ff510f0b1b6/",
     "SoftUni/Programming basic (Python)": "https://softuni.bg/certificates/details/210029/dfe6664e",
-
+    "Udemy/QA Automation Testing (Python)": "https://www.udemy.com/certificate/UC-059727cc-81a5-4624-bcd4-054859639231/",
 }
+
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -68,10 +70,13 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write("#")
 st.subheader("Online Certificates")
 
-st.write("#")
-cols = st.columns(len(CERTIFICATES))
-for index, (platform, link) in enumerate(CERTIFICATES.items()):
-    cols[index].write(f"[{platform}]({link})")
+for cert_name, cert_link in CERTIFICATES.items():
+    st.markdown(f"➡️ [{cert_name}]({cert_link})")
+
+# st.write("#")
+# cols = st.columns(len(CERTIFICATES))
+# for index, (platform, link) in enumerate(CERTIFICATES.items()):
+#     cols[index].write(f"[{platform}]({link})")
 
 st.markdown("----------------------------------------------------------")
 
@@ -79,10 +84,10 @@ st.write("#")
 st.subheader("Previous Experience")
 st.write(
     """
-- QA Tester | Utest.com (freelance) (07.2023 – 05.2024)  
-- QA intern | Soft intellect (Full time) (05.2024 – 08.2024) 
-- QA specialist | Soft intellect (Full time) (09.2024)  
-- Auto - diagnostic Specialist (09.2011 – 05.2023) 
+    ✓ QA Tester | Utest.com (freelance) (07.2023 – 05.2024).\n
+    ✓ QA intern | Soft intellect (Full time) (05.2024 – 08.2024).\n
+    ✓ QA specialist | Soft intellect (Full time) (09.2024).\n
+    ✓ Auto - diagnostic Specialist (09.2011 – 05.2023).\n
     """
 )
 st.markdown("----------------------------------------------------------------------------")
